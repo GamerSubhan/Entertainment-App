@@ -1,0 +1,80 @@
+
+h2{
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 2vw;
+    text-wrap: nowrap;
+}
+
+h3
+{
+    position: absolute;
+    margin-top: 27vh;
+    margin-left: 1.5vw;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 22vh;
+    margin-left: -2vw;
+    position: absolute;
+}
+
+li
+{
+    margin-left: 2vw;
+}
+
+#bookmarkCanvas
+{
+    border-radius: 360px;
+    background-color: #5a698f9f;
+    text-align: center;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 23vw;
+}
+
+#bookmarkCanvas img
+{
+    margin-bottom: -1.2vh;
+}
+
+#playDiv
+{
+    background-color: rgba(0, 0, 0, 0.3); 
+    height: 31.5vh;
+    width: 27vw;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 90;
+    text-align: center;
+}
+
+#playBtn
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 30%;
+    height: 6vh;
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 13vh;
+}
+
+#playBtn p
+{
+    position: absolute;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+
+#playBtn img
+{
+    position: absolute;
+    margin-left: -3vw;
+    margin-top: 1vh;
+}

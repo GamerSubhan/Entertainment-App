@@ -1,0 +1,113 @@
+#loginDiv
+{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #161D2F;
+    width: 27%;
+    height: 50vh;
+    border-radius: 8px;
+    margin-top: 10vh;
+}
+
+#loginTitle
+{
+    position: absolute;
+    margin-top: 5vh;
+}
+
+#emailInput
+{
+    margin-top: 13vh;
+    position: absolute;
+}
+
+#passwordInput
+{
+    margin-top: 22vh;
+}
+
+#repeatInput
+{
+    position: absolute;
+    margin-top: -23vh;
+    margin-left: -11.2vw;
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid rgba(126, 124, 124, 0.804);
+    width: 22vw;
+    line-height: 5vh;
+}
+
+input:focus
+{
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+input:hover
+{
+    cursor: pointer;
+}
+
+#loginLogo
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+button
+{
+    margin-top: 5vh;
+    background-color: #FC4747;
+    color: white;
+    width: 80%;
+    height: 6vh;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+h4 span
+{
+    color: #FC4747;
+}
+
+h4 span:hover
+{
+    cursor: pointer;
+}
+
+#emailError
+{
+    display: none;
+    color: #FC4747;
+    position: absolute;
+    margin-top: 14vh;
+    margin-left: 18vw;
+    font-size: .9em;
+}
+
+#passwordError
+{
+    display: none;
+    color: #FC4747;
+    position: absolute;
+    margin-left: 18vw;
+    margin-top: -4vh;
+    font-size: .9em;
+}
